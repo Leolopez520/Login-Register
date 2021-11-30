@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Intento2</title>
+	<link rel="stylesheet" href="intento2.css" >
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	
+</head>
+	<nav>
+	<img src="images/logo.png" alt="">
+  <ul class="links">
+    <li><a href="">Inicio</a></li>
+    <li><a href="">SignUp</a></li>
+  </ul>
+</nav>
+<body>
+
+	
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>CREAR CUENTA</h1>
+			<div class="social-container">
+				<a href="https://www.facebook.com/" class="social"><i class='bx bxl-facebook-circle'></i></a>
+				<a href="https://www.instagram.com/?hl=es" class="social"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social"><i class='bx bxl-google' ></i></a>
+			</div>
+			<span>o registrate con tu correo electronico</span>
+			<input type="text" placeholder="Nombre" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Contraseña" />
+			<input type="password" placeholder="Confirmar Contraseña" />
+			<input type="password" placeholder="Celular" />
+			<button>CREAR CUENTA</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>INICIAR SESION</h1>
+			<div class="social-container">
+				<a href="https://www.facebook.com/" class="social"><i class='bx bxl-facebook-circle'></i></a>
+				<a href="https://www.instagram.com/?hl=es" class="social"><i class='bx bxl-instagram-alt' ></i></a>
+				<a href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="social"><i class='bx bxl-google' ></i></a>
+			</div>
+			<span>o usa tu cuenta ProyectToDo</span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Contraseña" />
+			<a href="#">Recuprar contraseña</a>
+			<button>Iniciar Sesion</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>ProyectToDo</h1>
+				<p>La mejor forma de manejar tus proyectos</p>
+				<button class="ghost" id="signIn">INICIAR SESION</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>ProyectToDo</h1>
+				<p>La mejor forma de manejar tus proyectos</p>
+				<button class="ghost" id="signUp">CREAR CUENTA</button>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+	<script src="js.js"></script>
+</html>
